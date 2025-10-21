@@ -1,4 +1,4 @@
-# Backend - Patient Management System
+# Backend - Appointment Scheduling System
 
 ## Prerequisites
 
