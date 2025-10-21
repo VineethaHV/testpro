@@ -4,13 +4,8 @@ module.exports = (sequelize, DataTypes) => {
     patientId: { type: DataTypes.INTEGER, allowNull: false },
     doctor: { type: DataTypes.STRING, allowNull: false },
     date: { type: DataTypes.DATE, allowNull: false },
-    reason: { type: DataTypes.STRING },
-    status: { 
-      type: DataTypes.ENUM('scheduled', 'cancelled', 'completed'), 
-      allowNull: false, 
-      defaultValue: 'scheduled' 
-    },
-    timeSlot: { type: DataTypes.STRING, allowNull: false } // e.g. "09:00-09:30"
+    reason: { type: DataTypes.STRING }
+    // Removed: status, timeSlot
   });
   return Appointment;
 };

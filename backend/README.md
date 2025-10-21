@@ -1,4 +1,4 @@
-# Backend - Appointment Scheduling System
+# Backend - Doctor-Provider Management System
 
 ## Prerequisites
 
